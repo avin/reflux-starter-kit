@@ -18,14 +18,15 @@ $ npm install
 
 ### Build
 
-Dynamic build app for development
+#### Dynamic build for development
 ```sh
-$ webpack-dev-server
+$ webpack-dev-server --host site.dev --port 8888
 ```
+Open http://site.dev:8888/webpack-dev-server/ 
 
-Build app
+#### Productionn build
 ```sh
-$ webpack
+$ NODE_ENV=production webpack 
 ```
 
 Start dev and enjoy!
