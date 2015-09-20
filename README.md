@@ -16,6 +16,18 @@ $ cd ./reflux-starter-kit
 $ npm install
 ```
 
+### Build
+
+Dynamic build app for development
+```sh
+$ webpack-dev-server
+```
+
+Build app
+```sh
+$ webpack
+```
+
 Start dev and enjoy!
 
 License
