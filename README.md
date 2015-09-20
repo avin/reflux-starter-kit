@@ -4,7 +4,7 @@ Create your another reflux project faster.
 
 ### Installation
 
-You need Webpack installed globally to build app:
+You need Webpack installed globally:
 ```sh
 $ npm install -g webpack webpack-dev-server
 ```
